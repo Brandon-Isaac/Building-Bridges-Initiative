@@ -249,7 +249,7 @@ body {
 .flex {
   display: flex;
   width: 100%;
-  gap: 6px;
+  gap: 20px;
 }
 
 .form label {
@@ -320,32 +320,4 @@ select {
     transform: scale(1.8);
     opacity: 0;
   }
-}
-/*Homes*/
-.header1 {
-  background-color: #333;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  height: 20vh;
-  position: relative;
-}
-.logo1 {
-  width: auto;
-  height: 100%;
-  object-fit: contain;
-}
-.hyperlink {
-  color: #28a745;
-  text-decoration: none;
-  transition: 0.3s ease;
-  padding-right: 7px;
-}
-.hyperlink:hover {
-  text-decoration: underline;
-  transform: translate(2px);
-}
-.sect-container {
-  background-color: #333;
-  margin: 0 2px 0 2px;
 }
