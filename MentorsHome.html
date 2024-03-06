@@ -14,6 +14,7 @@
             <ul class="left">
                 <li><a href="#" class="active"><img class="logo" src="/Images/logo-black.png" alt="mylogo"></a></li>
             </ul>
+            <h1 id="Title">Building Bridges Initiative</h1>
             <ul class="right">
                 <li><a href="#dashboard" class ="hire">Dashboard</a></li>
                 <li><a href="#requests" class ="hire">Requests</a></li>
@@ -27,14 +28,14 @@
         <section data-aos="fade-up" id="dashboard">
             <div class="container">
                   <div class="image-container">
-                    <img class="my-image" src="/Images/Me in hot.jpg" alt="Me">
+                    <img class="my-image" src="/Images/user.png" alt="Me">
                 </div>
                 <div class="details">
-                    <p> Name: <span>    Students Mentor</span></p>
-                    <p>Experience: <span> 3 years</span></p>
-                    <p>Mentoring Students: <span> 12 students</span></p>
-                    <p>Field: <span>Software Development</span></p>
-                    <!--Make this card be Dynamic-->
+                    <p> Name: <span id="mentor-name">    Students Mentor</span></p>
+                    <p>Experience: <span id="experience-years"> 3 years</span></p>
+                    <p>Mentoring Students: <span id="studentsNo"> 12 students</span></p>
+                    <p>Field: <span id="field">Software Development</span></p>
+                    <!--Make this div Dynamic-->
                 </div>
             </div>
         </section>
@@ -44,7 +45,7 @@
             <p>The following are your mentorship requests:</p>
             <div class="cards">
                 <div class="skill-card">
-                    <img src="/Images/Me in hot.jpg" alt="">
+                    <img src="/Images/user.png" alt="">
                     <h2 id="username">Zabba Datch</h2>
                     <h2 id="field">Software Development</h2>
                     <a href="#contact"><button class="hire">Accept</button></a>
@@ -66,7 +67,7 @@
             <p> Students you mentor are:</p>
             <div class="cards">
                 <div class="skill-card">
-                    <img src="/Images/Me in hot.jpg" alt="">
+                    <img src="/Images/user.png" alt="">
                     <h2 id="username">Zabba Datch</h2>
                     <h2 id="field">Software Development</h2>
                 </div>
@@ -142,9 +143,16 @@
                 </div>
            
         </section>
-    <section data-aos="fade-up" id="job">
-        <h2>Company</h2>
-       <p><strong>You are currently working at this company:</strong> </p> 
+        <section data-aos="fade-up" id="job">
+            <h2>Company</h2>
+           <p><strong>You are currently working at this company:</strong> </p> 
+           <div class="cards">
+            <div class="skill-card">
+                <img src="/Images/Logo1.png" alt="">
+                <h2 id="username">Building Bridges Enterprises</h2>
+                <h2 id="field">Software Developer</h2>
+            </div>
+          </section>
        
     </section>
 
