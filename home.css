@@ -111,6 +111,8 @@ span {
 #requests,
 #skills,
 #company,
+#contacts,
+#mentors,
 #job,
 #stats {
   display: flex;
