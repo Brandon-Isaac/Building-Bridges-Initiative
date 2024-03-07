@@ -45,8 +45,7 @@ nav {
   font-weight: bolder;
   text-decoration: none;
 }
-.hire:hover,
-:active {
+.hire:hover {
   background-color: rgba(255, 255, 255, 1);
   color: #28a745;
   cursor: pointer;

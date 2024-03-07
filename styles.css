@@ -22,7 +22,9 @@ body {
   width: 120px;
   height: auto;
 }
-
+.logo:hover {
+  filter: brightness(1.5);
+}
 .slogan {
   display: block;
   margin-top: 10px;
